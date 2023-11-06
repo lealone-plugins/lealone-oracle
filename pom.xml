@@ -71,7 +71,7 @@
                                     </excludes>
                                 </filter>
                             </filters>
-                            <outputFile>target/lealone-cassandra-plugin-${project.version}.jar</outputFile>
+                            <outputFile>target/lealone-oracle-plugin-${project.version}.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
