@@ -21,7 +21,7 @@ public class OracleServerConnection extends AsyncServerConnection {
 
     protected OracleServerConnection(OracleServer server, WritableChannel writableChannel,
             Scheduler scheduler) {
-        super(writableChannel, true);
+        super(writableChannel);
         this.server = server;
         this.scheduler = scheduler;
     }
